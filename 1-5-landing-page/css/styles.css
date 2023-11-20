@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+}
+
+nav {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 50px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+nav a {
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    gap: 20px;
+    color: black;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: black;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid transparent;
+    border: 0;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn--black {
+    background-color: black;
+    color: white;
+}
+
+.btn--blue {
+    background-color: rgba(0, 100, 218, 1);
+    color: white;
+}
+
+.btn--white {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 100, 218, 1);
+}
+
+.btn--rounded {
+    border-radius: 24px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 44%;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 25px;
+    column-gap: 20px;
+    padding-top: 2em;
+    padding-bottom: 9em;
+}
+
+.presentationbtns {
+    display: flex;
+    padding-bottom: 25px;
+    column-gap: 25px;
+}
+
+.presentationvideo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 75px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.presentationvideo video {
+    width: 60%;
+    height: 60%;
+}
+
+.presentationvideo {
+    position: relative;
+}
+
+.watchmore {
+    position: absolute;
+    top: 93%;
+}
+
+.explanationtext {
+    padding-top: 4em;
+    padding-bottom: 1em;
+    width: 28%;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.explanationtext p {
+    line-height: 22px;
+}
+
+.explanationimg img {
+    width: 39em;
+    height: 23em;
+    box-shadow: 0px 0px 10px rgb(185, 185, 185);
+}
+
+.explanationimg {
+   padding-bottom: 30px;
+}
+
+.dot {
+    height: 44px;
+    width: 44px;
+    background-color: rgba(0, 100, 218, 1);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+    width: calc(100% / 3 - 16px);
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 12px;
+}
+
+.card:hover {
+    background-color: rgba(0, 100, 218, 1);
+    color: white;
+    box-shadow: 0px 5px 5px rgb(163, 163, 163);
+}
+
+.card:hover .dot {
+    background-color: white;
+}
+
+.preview {
+    width: 40em;
+    height: 13em;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 10em;
+    justify-content: center;
+    gap: 2em;
+}
+
+.preview .thumbnail {
+    width: 14em;
+    height: 8em;
+    border-radius: 5px;
+    background-color: rgba(196, 196, 196, 1);
+}
+
+.preview .author {
+    display: flex;
+}
+
+.preview .authorpic {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    background-color: rgba(196, 196, 196, 1);
+}
+
+.getstarted {
+    width: 90em;
+    height: 13em;
+    background-color: rgba(0, 100, 218, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em;
+    color: white;
+    margin-bottom: 5em;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    text-align: left;
+}

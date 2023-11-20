@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-right: 3vw;
+    padding-left: 2vw;
+
+}
+
+nav img {
+    width: 100px;
+    max-width: 15vw;
+}
+
+.nav_categories {
+    display: flex;
+    gap: 2vw;
+}
+
+.nav_categories button {
+    background-color: transparent;
+    border: transparent;
+}
+
+.nav_categories svg {
+    position: relative;
+    bottom: 2px;
+}
